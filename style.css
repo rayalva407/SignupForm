@@ -3,13 +3,16 @@
   margin: 0%;
 }
 
+h1 {
+  padding: 40px;
+}
+
 main {
   background-color: #3a7dfafa;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   height: 100vh;
 }
 
@@ -19,12 +22,10 @@ form {
   color: #F7F4D4;
   font-size: 26px;
   padding: 20px;
-  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 60vh;
   box-shadow: 10px 10px 40px 5px #182847;
 }
 
