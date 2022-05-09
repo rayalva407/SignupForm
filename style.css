@@ -4,7 +4,7 @@
 }
 
 main {
-  background-color: #1258DC;
+  background-color: #3a7dfafa;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,9 @@ main {
 
 form {
   background-color: #091834;
+  border-radius: 15px;;
   color: #F7F4D4;
+  font-size: 26px;
   padding: 20px;
   margin: 20px;
   display: flex;
@@ -23,6 +25,7 @@ form {
   justify-content: center;
   align-items: center;
   height: 60vh;
+  box-shadow: 10px 10px 40px 5px #182847;
 }
 
 .input {
@@ -31,9 +34,34 @@ form {
   padding: 10px;
   margin: 20px;
   border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.input:valid {
+  border: 3px solid rgb(4, 194, 4);
+}
+
+.input:focus {
+  border: none;
 }
 
 .button {
   background-color: #FDED2A;
   border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+  border: none;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #EA202C;
 }
